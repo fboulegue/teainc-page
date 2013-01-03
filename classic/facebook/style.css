@@ -1,0 +1,164 @@
+.wrapper {
+	width:488px;
+	height:2700px;
+	background-image: url(page_background.png);
+	background-repeat:repeat;
+	color:#999;
+}
+
+h3 {
+	color:#FFF;
+}
+h2 {
+	color:#df9100;
+	font-size:17px;
+}
+
+a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+a:hoover {
+	text-decoration:underline;
+}
+
+ul li {
+	list-style-type: none;
+	display:inline;
+}
+
+ul.contact-list li
+{
+	margin-bottom:2px;
+	padding-left:25px;
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+
+li.contact-list-fax 	{ background-image:url('http://www.teainc.me/image/contact_icon_fax.png'); 	}
+li.contact-list-mail  	{ background-image:url('http://www.teainc.me/image/contact_icon_mail.png');  	}
+li.contact-list-phone  	{ background-image:url('http://www.teainc.me/image/contact_icon_phone.png');  }
+li.contact-list-team  	{ background-image:url('http://www.teainc.me/image/contact_icon_team.png');  }
+
+ul.contact-list li span
+{
+	color:#D65902;
+}
+
+.header {
+	position:relative;
+	background-image: url(header.png);
+	background-repeat: repeat-x;
+	height:198px;
+}
+
+.text {
+	position:relative;
+	float:left;
+	width:240px;
+	padding-left:10px;
+}
+
+.aboutus {
+	position:relative;
+	margin:10px;
+	background-color:#252525;
+	width:468px;
+	height:440px;
+}
+
+.menueblue {
+	position:relative;
+	float:left;
+	background-image: url(http://www.teainc.me/facebook/blue.png);
+	width:200px;
+	height:440px;
+}
+
+.portfolio {
+	position:relative;
+	margin:10px;
+	background-color:#252525;
+	width:468px;
+	height:440px;
+}
+
+.menuegreen {
+	position:relative;
+	float:left;
+	background-image: url(http://www.teainc.me/facebook/green.png);
+	width:200px;
+	height:440px;
+}
+
+.pbilder {
+	position:relative;
+	float:left;
+	width:240px;
+	padding-left:28px;
+	padding-top:15px;
+}
+
+.pbilder img {
+	margin:5px;
+}
+
+.wirbieten {
+	position:relative;
+	margin:10px;
+	background-color:#252525;
+	width:468px;
+	height:1100px;
+}
+
+.menueyellow {
+	position:relative;
+	float:left;
+	background-image: url(http://www.teainc.me/facebook/yellow.png);
+	width:200px;
+	height:1100px;
+}
+
+.kontakt {
+	position:relative;
+	margin:10px;
+	background-color:#252525;
+	width:468px;
+	height:440px;
+}
+
+.menueorange {
+	position:relative;
+	float:left;
+	background-image: url(http://www.teainc.me/facebook/orange.png);
+	width:200px;
+	height:440px;
+}
+
+div.latest-tweets
+{
+	background:url('http://www.teainc.me/image/footer_icon_tweet.png') center left no-repeat;
+}
+
+div.latest-tweets #latest-tweets ul
+{
+	margin:0px;
+	padding:0px;
+	margin-left:35px;
+	padding-left:15px;
+	list-style-type:none;				
+	border-left:solid 1px #343434; 
+}
+
+div.latest-tweets #latest-tweets ul li
+{
+	height:40px;
+	display:table-row;
+}
+
+div.latest-tweets #latest-tweets ul li p
+{
+	margin:0px;
+	padding:0px;
+}
